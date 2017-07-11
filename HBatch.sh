@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/sh
 #title           :HBatch.sh
 #description     :Batch video converter for HandBrakeCLI. Takes any video input.
 #author		 :Jaska
