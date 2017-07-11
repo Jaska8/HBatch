@@ -1,12 +1,12 @@
 # HBatch & HBatchstatic
-Simple batch bash script for HandBrakeCLI. Takes input folder and encodes to output folder keeping filenames, works with empty spaces on directory path/filename.
+Simple batch shell script for HandBrakeCLI. Takes input folder and encodes to output folder keeping filenames, works with empty spaces on directory path/filename.
 
 You need to have HandBrakeCLI installed. Works only on linux based machines.
 
 Script is safe as it will not overwrite any existing files (Script creates HBatch.log file for later inspection) and all input files will be left untouched!
 
 # HBatch
-Usage: ./HBatch.sh or bash HBatch.sh
+Usage: ./HBatch.sh or sh HBatch.sh
 
 Script will ask for input and output folder.
 
@@ -22,6 +22,6 @@ If output video file gets corrupted or encoding process is stopped before finish
 # HBatchstatic
 
 EDIT THE SCRIPT SETTINGS FIRST!
-Usage ./HBatchstatic.sh or bash HBatchstatic.sh
+Usage ./HBatchstatic.sh or sh HBatchstatic.sh
 
 Edit the script for settings you desire instead of inputting them. 
