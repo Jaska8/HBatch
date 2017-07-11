@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/sh
 #title           :HBatchstatic.sh
 #description     :Batch video converter for HandBrakeCLI.
 #author		 :Jaska
