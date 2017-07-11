@@ -5,8 +5,7 @@ You need to have HandBrakeCLI installed. Works only on linux based machines.
 
 Script is safe as it will not overwrite any existing files (Script creates HBatch.log file for later inspection) and all input files will be left untouched!
 
-HBatch.sh
-
+# HBatch
 Usage: ./HBatch.sh or bash HBatch.sh
 
 Script will ask for input and output folder. Do not end the path with forward slash as this is part of the script.
@@ -19,3 +18,9 @@ There is no pause or cancel command built in as the script will go trough all vi
 
 If output video file gets corrupted or encoding process is stopped before finish just delete the video file and run the script again.
 
+
+# HBatchstatic
+
+Usage ./HBatchstatic.sh or bash HBatchstatic.sh EDIT THE SCRIPT SETTINGS FIRST!
+
+Edit the script for settings you desire instead of inputting them. 
