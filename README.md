@@ -8,7 +8,7 @@ Script is safe as it will not overwrite any existing files (Script creates HBatc
 # HBatch
 Usage: ./HBatch.sh or bash HBatch.sh
 
-Script will ask for input and output folder. Do not end the path with forward slash as this is part of the script.
+Script will ask for input and output folder.
 
 All encoding settings can be found here https://handbrake.fr/docs/en/latest/cli/cli-guide.html you do not need to set -i or -o as this is done by the script
 
@@ -21,6 +21,7 @@ If output video file gets corrupted or encoding process is stopped before finish
 
 # HBatchstatic
 
-Usage ./HBatchstatic.sh or bash HBatchstatic.sh EDIT THE SCRIPT SETTINGS FIRST!
+EDIT THE SCRIPT SETTINGS FIRST!
+Usage ./HBatchstatic.sh or bash HBatchstatic.sh
 
 Edit the script for settings you desire instead of inputting them. 
