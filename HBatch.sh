@@ -18,7 +18,7 @@ read EXT
 echo "Please type in encoding settings. Leave empty for HandBrake defaults. List of settings https://handbrake.fr/docs/en/latest/cli/cli-guide.html"
 read ENC_SETTINGS
 
-for file in "$SRC"/*
+for file in "$SRC"/*.*
 do
   filename=$(basename "$file")
 
