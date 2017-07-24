@@ -17,8 +17,8 @@ DST="/home/user/encoded"
 EXT=
 
 #List of settings leave empty for HandBrake defaults (not recommended) https://handbrake.fr/docs/en/latest/cli/cli-guide.html
-ENC_SETTINGS=''
-#KEEP SETTINGS BETWEEN ''! otherwise -e and -E will be ignored.
+ENC_SETTINGS=""
+#KEEP SETTINGS BETWEEN ""! otherwise -e and -E will be ignored.
 for file in "$SRC"/*.*
 do
   filename=$(basename "$file")
