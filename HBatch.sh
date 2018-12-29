@@ -3,7 +3,7 @@
 #description     :Batch video converter for HandBrakeCLI. Takes any video input.
 #author		 :Jaska
 #date            :20170711
-#usage		 :bash HBatch.sh
+#usage		 :sh HBatch.sh
 #notes           :Requires HandBrakeCLI to be installed system wide or edit script for HandBrakeCLI full path
 
 echo "Please type the input folder to be converted. Example /home/user/videos"
