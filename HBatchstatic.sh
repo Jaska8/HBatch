@@ -3,7 +3,7 @@
 #description     :Batch video converter for HandBrakeCLI.
 #author		 :Jaska
 #date            :20170711
-#usage		 :bash HBatchstatic.sh or ./HBatchstatic.sh
+#usage		 :sh HBatchstatic.sh or ./HBatchstatic.sh
 #notes           :Requires HandBrakeCLI to be installed system wide or edit script for HandBrakeCLI full path
 
 
